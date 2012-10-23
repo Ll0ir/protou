@@ -2,7 +2,7 @@
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := primou
+PRODUCT_RELEASE_NAME := protou
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
@@ -11,8 +11,8 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/htc/primou/device_primou.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := primou
+PRODUCT_DEVICE := protou
 PRODUCT_NAME := cm_primou
 PRODUCT_BRAND := htc
-PRODUCT_MODEL := primou
+PRODUCT_MODEL := protou
 PRODUCT_MANUFACTURER := htc
