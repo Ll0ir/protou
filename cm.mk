@@ -8,11 +8,11 @@ PRODUCT_RELEASE_NAME := protou
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/htc/protou/device_primou.mk)
+$(call inherit-product, device/htc/protou/device_protou.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := protou
-PRODUCT_NAME := cm_primou
+PRODUCT_NAME := cm_protou
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := protou
 PRODUCT_MANUFACTURER := htc

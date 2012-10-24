@@ -52,7 +52,7 @@ WIFI_DRIVER_FW_PATH_PARAM        := "/sys/module/bcmdhd/parameters/firmware_path
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/htc/common
 
-TARGET_KERNEL_SOURCE := kernel/htc/msm7x30
+TARGET_KERNEL_SOURCE := kernel/htc/msm7k
 TARGET_KERNEL_CONFIG := cyanogen_protou_defconfig
 TARGET_PREBUILT_KERNEL := device/htc/protou/prebuilt/kernel
 
