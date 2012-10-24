@@ -35,4 +35,4 @@ $(call inherit-product, device/htc/protou/device.mk)
 PRODUCT_NAME := full_protou
 PRODUCT_DEVICE := protou
 PRODUCT_BRAND := HTC
-PRODUCT_MODEL := Desire Z
+PRODUCT_MODEL := Desire X
